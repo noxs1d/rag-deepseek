@@ -1,0 +1,55 @@
+*.env
+faiss_store
+.env
+# .pyc файлы (собираются при компиляции .py файлов в .pyc)
+*.pyc
+*.pyo
+*.pyd
+
+# Каталоги с кэшами Python
+__pycache__/
+*.pyo
+
+# Среда виртуального окружения (например, venv, env)
+venv/
+env/
+.venv/
+.env/
+
+# Миграции баз данных
+migrations/
+
+# Папки и файлы IDE (например, PyCharm, VS Code)
+.vscode/
+.idea/
+
+# Папки с результатами тестирования
+coverage/
+nosetests.xml
+coverage.xml
+*.cover
+
+# Файлы конфигурации, которые могут быть уникальными для разработчика
+*.env
+*.env.*
+
+# Логи и временные файлы
+*.log
+*.bak
+*.swp
+*.swo
+
+# Системные файлы macOS
+.DS_Store
+
+# Системные файлы Windows
+Thumbs.db
+
+# Docker файлы, если не хотите включать их в репозиторий
+Dockerfile
+docker-compose.yml
+
+# Файлы с секретами, ключами
+*.key
+*.pem
+*.cert
